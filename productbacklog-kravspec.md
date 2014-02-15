@@ -14,7 +14,7 @@ Här kommer saker som skall fixas:
 
 3. När man bytt lösenord skall det skrivas ut en ordentlig bekräftelse och man skall länkas tillbaka till förstasidan
 
-4. Skriver man en tag innom html t.ex. <h1>taggar</h1> så finns den med i texten men hamnar inte i taglistan
+4. Skriver man en tag innom html t.ex. h1-tagg så finns den med i texten men hamnar inte i taglistan
 
 5. Taggar i taglistan skall ha länkar som leder till en sida där alla inlägg som har med taggen listas.
 
