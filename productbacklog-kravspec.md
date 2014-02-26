@@ -12,7 +12,7 @@ Här kommer saker som skall fixas:
 
 --2. Taggar skall tas bort ur talistan om de inte finns med i något inlägg
 
-3. När man bytt lösenord skall det skrivas ut en ordentlig bekräftelse och man skall länkas tillbaka till förstasidan
+--3. När man bytt lösenord skall det skrivas ut en ordentlig bekräftelse och man skall länkas tillbaka till förstasidan
 
 4. Skriver man en tag innom html t.ex. h1-tagg så finns den med i texten men hamnar inte i taglistan
 
