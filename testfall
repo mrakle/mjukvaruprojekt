@@ -10,3 +10,20 @@
   4.1 Fel: Taggen i textfältet visar #<h1>hello</h1>.
 5. Skriv dit html-taggar igen enl #<h1>hello</h1> och uppdatera.
 6. Resultat samma som TF.2
+
+
+### Två taggar, ta bort en
+
+1. Finns ett inlägg med minst två taggar.
+2. Redigera texten.
+3. Ta bort en av taggarna med backspace.
+4. Uppdatera inlägg.
+5. Den raderade taggen försvinner från listan
+  5.1. Fel: Den befintliga taggen dupliceras.
+  5.2. Fel: Den duplicera taggen får fel id i databasen.
+
+### Test ovan och radera inlägg.
+1. Hela TF:Två taggar, ta bort en
+2. Klicka "Ta bort".
+3. Inlägget försvinner och alla tillhörande taggar från listan.
+  3.1. Fel: Taggen med felaktiv id i databasen blir kvar i listan.
