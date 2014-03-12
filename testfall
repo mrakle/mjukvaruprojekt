@@ -1,6 +1,6 @@
 ##testfall
 
-### Tagg utan html-taggar
+###1 Tagg utan html-taggar
 
 1. Användaren skriver ex #<h1>hello</h1> i kommentar fältet
 2. Taggen precenteras i kommentarfältet och i listan utan html-taggarn: #hello
@@ -12,7 +12,7 @@
 6. Resultat samma som TF.2
 
 
-### Två taggar, ta bort en
+###2 Två taggar, ta bort en
 
 1. Finns ett inlägg med minst två taggar.
 2. Redigera texten.
@@ -22,8 +22,17 @@
   5.1. Fel: Den befintliga taggen dupliceras.
   5.2. Fel: Den duplicera taggen får fel id i databasen.
 
-### Test ovan och radera inlägg.
+###3 Test ovan och radera inlägg.
 1. Hela TF:Två taggar, ta bort en
 2. Klicka "Ta bort".
 3. Inlägget försvinner och alla tillhörande taggar från listan.
   3.1. Fel: Taggen med felaktiv id i databasen blir kvar i listan.
+
+### test3 + Tabort inlägg
+1. Ta bort inlägg
+2. Inlägget försvinner
+3. Tillhörande taggar försvinner från listan
+  3.1 Fel. Taggarna försvinner inte.
+  
+  
+####Felrapport: mytags table. imageId får id från MYBLOGG id
